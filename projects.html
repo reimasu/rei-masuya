@@ -4,31 +4,165 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rei Masuya</title>
+    <link rel="icon" href="Logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
     <!--Your CSS-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-    <title>My Website</title>
-    <meta name="description" content="My website">
-    <meta name="author" content="Your Name">
+   <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
 
-</head>
-
-<body>
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body  onload="init()"  id="scroll-container" class="scroll-container home">
     
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div>
+    <header>
+        <nav>
+            <ul class="nav-appear">
+               <li><a href="#"> <button id="view2button" data-link="view2">HOME</button></a></li>
+                <a class="relative" href="projects.html">
+                    <button id="view1button" data-link="view1">PROJECTS</button>
+                </a>
+               <a href="about.html">
+                 <button id="view4button" data-link="view4">ABOUT</button></a>
+               <a href="contact.html">
+                 <button id="view5button" data-link="view5">CONTACT</button></a>
+       
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="projects">
+            <section id="view2" class="projects">
+                <section class="pview2">
+                        <h1 class="title">
+                          <p>PROJECTS</p></h1>
+                </section>
+            </section>    
+        </section>
+
+        <section class="sview2">
+          <hr class="hr1 hr">
+            <div>
+              <a class="link-pro" href="projets/PHOTOGRAPHY.html">PHOTOGRAPHY</a>
+              <p class="link-pro">PHOTOGRAPHY</p>
+            </div>
+          <hr class="hr2 hr">
+            <div>
+              <a  class="link-pro"  href="projects/MOMENTUM">MOMENTUM MAGAZINE</a>
+              <p class="link-pro">GRAPHIC DESIGN</p>
+            </div>
+          <hr class="hr3 hr">
+            <div>
+              <a class="link-pro" href="projets/ZINE.html">ZINE</a>
+             <p class="link-pro">PHOTOGRAPHY + GRAPHIC DESIGN</p>
+            </div>
+          <hr class="hr4 hr">
+            <div>
+              <a class="link-pro" href="projects/YEARBOOK.html">YEARBOOK</a>
+              <p class="link-pro">PHOTOGRAPHY + GRAPHIC DESIGN</p>
+            </div>
+        </section>
+
+        <section id="view1" class="textBox relative">
+          <div class="line1 flex">
+             <div>
+             <a href="projects/PHOTOGRAPHY.html" target="_blank">
+                 <img src="photography/backyard.JPG"alt="Film Photograph"/>
+             </a>
+             </div>
+             <div>
+              <a href="MOMENTUM.html" target="_blank">
+                 <img src="momentum_logo.png" alt="Momentum Magazine Logo"/>
+             </a>
+             </div>
+         </div>
+         <div class="line2 flex">
+             <div>
+               <a href="projets/ZINE.html">
+               <img src="img/img-home/wildee.jpg" alt=""/>
+                  </a>
+             </div>
+
+             <div>
+              <a href="projets/YEARBOOK.html">
+                 <img src="img/img-home/mobil.jpg" alt="">
+              </a>
+              </div>
+              
+              <div>
+              <a href="projets/sainte-croix.html">
+                 <img src="img/img-home/sainte.jpg" alt="">
+              </a>
+             </div>
+         </div>
+
+          <div class="line3 flex">
+              <div>
+            <a href="projets/licky.html">
+                 <img src="img/img-home/lick.jpg" alt="">
+             </a>
+             </div>
+             <div>
+              <a href="projets/hermes.html">
+                 <img class="exc" src="img/img-home/hermes.jpg" alt="">
+             </a>
+             </div>
+         </div>
+          <div class="line4 flex">
+              <div>
+             <a href="projets/chair.html">
+                 <img src="img/img-home/chair.jpg" alt="">
+             </a>
+             </div>
+             <div>
+              <a href="projets/lampe.html">
+                 <img src="img/img-home/lampe.jpg" alt="">
+             </a>
+             </div>
+             <div>
+             <a href="projets/watch.html">
+                 <img src="img/img-home/watch.jpg" alt="">
+             </a>
+             </div>
+         </div>
+     </section>
+    <footer>
+      <nav>
+        <ul>
+          <a target="_blank"  href="https://www.linkedin.com/in/felix-hieronimus-567ba1164/">LINKEDIN</a>
+        </ul>
+      </nav>
+    </footer>
+    </main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script  type="text/javascript" src="js/script.js"></script>
     
 </body>
