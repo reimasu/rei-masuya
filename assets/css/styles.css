@@ -36,18 +36,18 @@ html.is-animating .transition-fade {
 
 #gallery {
   line-height:0;
-  -webkit-column-count:5; /* split it into 5 columns */
-  -webkit-column-gap:5px; /* give it a 5px gap between columns */
-  -moz-column-count:5;
-  -moz-column-gap:5px;
-  column-count:5;
-  column-gap:5px;
+  -webkit-column-count:4; /* split it into 5 columns */
+  -webkit-column-gap:10px; /* give it a 5px gap between columns */
+  -moz-column-count:4;
+  -moz-column-gap:10px;
+  column-count:4;
+  column-gap:10px;
 }
 
 #gallery img {
   width: 100% !important;
   height: auto !important;
-  margin-bottom:5px; /* to match column gap */
+  margin-bottom:10px; /* to match column gap */
 }
 
 
@@ -429,19 +429,15 @@ h1 {
 
 }
 
-info-3 {
+.info-3,
+.info-4 {
   transform: translateY(100vh);
   opacity: 0;
   animation: 1s cubic-bezier(.19, 1, .22, 1) forwards uppp;
-  animation-delay: 0.55s;
+  animation-delay: 0;
+
 }
 
-info-4 {
-  transform: translateY(100vh);
-  opacity: 0;
-  animation: 1s cubic-bezier(.19, 1, .22, 1) forwards uppp;
-  animation-delay: 0.55s;
-}
 
 .first {
   transform: translateY(100vh);
@@ -485,6 +481,8 @@ info-4 {
   flex-direction: column;
   justify-content: space-between;
   height: 35vh;
+  overflow: visible;
+  margin-bottom: 10vh;
 }
 
 .pview3 {
@@ -606,6 +604,9 @@ hr {
   text-align: right;
   padding: 4vw;
   padding-right: 8vw;
+  position: relative;
+  animation: 1s cubic-bezier(.19, 1, .22, 1) forwards up-a;
+  animation-delay: 2s;
 }
 
 .info-4 {
@@ -734,6 +735,7 @@ p {
 #view1 {
   overflow: visible;
   height: 91vh;
+  margin-bottom: 40em;
 }
 
 
@@ -924,26 +926,27 @@ p {
 }
 
 
-#view1 a img:hover {
-  width: 310%;
-}
-
 #view1 b img {
   width: 500%;
   height: auto;
 }
 
-#view1 b img:hover {
-  width: 510%
-}
+
 
 #view1 s img {
   width: 250%;
   height: auto;
 }
 
-#view1 s img:hover {
-  width: 260%
+
+#view1 g img {
+  width: 300px;
+  height: auto;
+  margin-bottom:5px; /* to match column gap */
+}
+
+#view1 g img:hover {
+  width: 305px;
 }
 
 /* view2 */
