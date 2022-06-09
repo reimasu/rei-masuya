@@ -50,6 +50,23 @@ html.is-animating .transition-fade {
   margin-bottom:10px; /* to match column gap */
 }
 
+#gallery2 {
+  line-height:0;
+  -webkit-column-count:2; /* split it into 5 columns */
+  -webkit-column-gap:10px; /* give it a 5px gap between columns */
+  -moz-column-count:2;
+  -moz-column-gap:10px;
+  column-count:2;
+  column-gap:10px;
+}
+
+#gallery2 img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom:10px; /* to match column gap */
+}
+
+
 
 /* header */
 a {
