@@ -66,6 +66,21 @@ html.is-animating .transition-fade {
   margin-bottom:10px; /* to match column gap */
 }
 
+#gallery3 {
+  line-height:0;
+  -webkit-column-count:2; /* split it into 5 columns */
+  -webkit-column-gap:10px; /* give it a 5px gap between columns */
+  -moz-column-count:2;
+  -moz-column-gap:40px;
+  column-count:2;
+  margin-left: 150px;}
+
+#gallery3 img {
+  width: 80% !important;
+  height: auto !important;
+  margin-bottom:10px; /* to match column gap */
+}
+
 
 
 /* header */
@@ -116,7 +131,7 @@ hr {
 footer {
   width: 98vw;
   padding-bottom: 20px;
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
 
@@ -166,6 +181,7 @@ nav ul li a {
 .pro-img div p {
   display: none;
 }
+
 
 /* main */
 h1 {
@@ -497,7 +513,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 35vh;
+  height: 22vh;
   overflow: visible;
   margin-bottom: 10vh;
 }
@@ -1217,6 +1233,7 @@ p {
 
   .footer {
       width: 90vw;
+
   }
 
   .last-l::after {
@@ -1304,6 +1321,7 @@ p {
       text-align: center;
       margin-top: 3em;
   }
+  
 
   .pro-img div img {
       width: 100%;
