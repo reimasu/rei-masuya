@@ -649,6 +649,18 @@ hr {
   padding-right: 10vw;
 }
 
+.info-5 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 5vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 10vw;
+}
+
+
+
 .picAndText {
   display: flex;
 }
